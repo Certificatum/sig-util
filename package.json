@@ -1,0 +1,27 @@
+{
+  "name": "@certificatum/sig-util",
+  "version": "0.1.0",
+  "description": "Util for signing verifying data with secp256k1",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Certificatum A.Ş.",
+  "license": "MIT",
+  "dependencies": {
+    "@noble/hashes": "^1.1.2",
+    "@noble/secp256k1": "^1.7.0",
+    "keccak256": "^1.0.6"
+  },
+  "types": "./index.d.ts",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Certificatum/sig-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Certificatum/sig-util/issues"
+  },
+  "homepage": "https://github.com/Certificatum/sig-util#readme"
+}
